@@ -1,8 +1,7 @@
-
 body {
   background: linear-gradient(139deg, #e26c6c, #e79f44, #e7ca44, #8be254, #4ea5e5, #8c5be5, #d56ccf);
   background-size: 1400% 1400%;
-  animation: swoosh 20s ease infinite;
+  animation: swoosh 30s ease infinite;
 }
 
 @keyframes swoosh {
