@@ -1,24 +1,18 @@
+body {
+  width: 100vw;
+  height: 100vh;
+}
 
 body {
-background: linear-gradient(139deg, #e26c6c, #e79f44, #e7ca44, #8be254, #4ea5e5, #8c5be5, #d56ccf);
-background-size: 1400% 1400%;
--webkit-animation: Backg 30s ease infinite;
--moz-animation: Backg 30s ease infinite;
-animation: Backg 30s ease infinite;
+  background: linear-gradient(139deg, #e26c6c, #e79f44, #e7ca44, #8be254, #4ea5e5, #8c5be5, #d56ccf);
+  background-size: 1400% 1400%;
+  animation: swoosh 20s ease infinite;
 }
 
-@-webkit-keyframes Backg {
-    0%{background-position:0% 18%}
-    50%{background-position:100% 83%}
-    100%{background-position:0% 18%}
-}
-@-moz-keyframes Backg {
-    0%{background-position:0% 18%}
-    50%{background-position:100% 83%}
-    100%{background-position:0% 18%}
-}
-@keyframes Backg { 
-    0%{background-position:0% 18%}
-    50%{background-position:100% 83%}
-    100%{background-position:0% 18%}
+@keyframes swoosh {
+  0%{background-position:0% 18%}
+
+  50%{background-position:100% 83%}
+
+  100%{background-position:0% 18%}
 }
