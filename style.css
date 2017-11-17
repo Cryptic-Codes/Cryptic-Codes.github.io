@@ -2,22 +2,22 @@
 body {
 background: linear-gradient(139deg, #e26c6c, #e79f44, #e7ca44, #8be254, #4ea5e5, #8c5be5, #d56ccf);
 background-size: 1400% 1400%;
--webkit-animation: bg 30s ease infinite;
--moz-animation: bg 30s ease infinite;
-animation: bg 30s ease infinite;
+-webkit-animation: Backg 30s ease infinite;
+-moz-animation: Backg 30s ease infinite;
+animation: Backg 30s ease infinite;
 }
 
-@-webkit-keyframes AnimationName {
+@-webkit-keyframes Backg {
     0%{background-position:0% 18%}
     50%{background-position:100% 83%}
     100%{background-position:0% 18%}
 }
-@-moz-keyframes AnimationName {
+@-moz-keyframes Backg {
     0%{background-position:0% 18%}
     50%{background-position:100% 83%}
     100%{background-position:0% 18%}
 }
-@keyframes AnimationName { 
+@keyframes Backg { 
     0%{background-position:0% 18%}
     50%{background-position:100% 83%}
     100%{background-position:0% 18%}
