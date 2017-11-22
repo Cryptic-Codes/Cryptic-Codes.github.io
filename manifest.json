@@ -1,9 +1,0 @@
-{
-  "name": "BloxAdmin",
-  "short_name": "BloxAdmin",
-  "lang": "en-US",
-  "start_url": "/dashboard",
-  "display": "standalone",
-  "theme_color": "#e53935",
-  "background_color": "#eeeeee"
-}
